@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Regex.swift: c9d91030e1ba2cf9d0399d701cb4e789024981b5
+  Regex.swift: f5bd6b06eb09b045f86a4e48a31084351affd7e7
 
 COCOAPODS: 0.39.0

@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import Regex.swift
+import Regex_swift
 
 class Tests: XCTestCase {
     
