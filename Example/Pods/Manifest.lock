@@ -1,0 +1,14 @@
+PODS:
+  - Regex.swift (0.1.0)
+
+DEPENDENCIES:
+  - Regex.swift (from `../`)
+
+EXTERNAL SOURCES:
+  Regex.swift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Regex.swift: c9d91030e1ba2cf9d0399d701cb4e789024981b5
+
+COCOAPODS: 0.39.0
