@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of Regex.swift.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/Regex.swift",
+  "homepage": "https://github.com/fpg1503/Regex.swift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Francesco Perrotti-Garcia": "fpg1503@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/Regex.swift.git",
+    "git": "https://github.com/fpg1503/Regex.swift.git",
     "tag": "0.1.0"
   },
   "platforms": {
