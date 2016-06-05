@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/Regex.swift'
+  s.homepage         = 'https://github.com/fpg1503/Regex.swift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Francesco Perrotti-Garcia' => 'fpg1503@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/Regex.swift.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/fpg1503/Regex.swift.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/fpg1503'
 
   s.ios.deployment_target = '8.0'
 
