@@ -1,6 +1,0 @@
-framework module Pods_Regex_swift_Example {
-  umbrella header "Pods-Regex.swift_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
