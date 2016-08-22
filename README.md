@@ -11,7 +11,7 @@ There are only 2 types: [`Match`](https://github.com/fpg1503/Regex.swift/blob/ma
 
 ## Usage
 
-Simply create a `Regex` by using `Regex(pattern:)` or `Regex(pattern: options`).
+Simply create a `Regex` by using `Regex(pattern:)` or `Regex(pattern: options)`.
 
 To verify if a `String` matches a `Regex` simply use `regex.match(string:)`:
 ```swift
@@ -32,6 +32,7 @@ public init?(plate: String) {
 
   letters = captureGroups[0]
   numbers = captureGroups[1]
+}
 ```
 
 ## Requirements
