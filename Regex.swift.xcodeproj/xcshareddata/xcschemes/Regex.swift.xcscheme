@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "Regex.swift_Example.app"
-               BlueprintName = "Regex.swift_Example"
-               ReferencedContainer = "container:Regex.swift.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "Regex.swift_Tests.xctest"
-               BlueprintName = "Regex.swift_Tests"
+               BlueprintIdentifier = "D95E1BDC1D88D63300F94976"
+               BuildableName = "Regex.framework"
+               BlueprintName = "Regex.swift"
                ReferencedContainer = "container:Regex.swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "Regex.swift_Tests.xctest"
-               BlueprintName = "Regex.swift_Tests"
+               BlueprintIdentifier = "D95E1BE51D88D63400F94976"
+               BuildableName = "RegexTests.xctest"
+               BlueprintName = "RegexTests"
                ReferencedContainer = "container:Regex.swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "Regex.swift_Example.app"
-            BlueprintName = "Regex.swift_Example"
+            BlueprintIdentifier = "D95E1BDC1D88D63300F94976"
+            BuildableName = "Regex.framework"
+            BlueprintName = "Regex.swift"
             ReferencedContainer = "container:Regex.swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "Regex.swift_Example.app"
-            BlueprintName = "Regex.swift_Example"
+            BlueprintIdentifier = "D95E1BDC1D88D63300F94976"
+            BuildableName = "Regex.framework"
+            BlueprintName = "Regex.swift"
             ReferencedContainer = "container:Regex.swift.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -94,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "Regex.swift_Example.app"
-            BlueprintName = "Regex.swift_Example"
+            BlueprintIdentifier = "D95E1BDC1D88D63300F94976"
+            BuildableName = "Regex.framework"
+            BlueprintName = "Regex.swift"
             ReferencedContainer = "container:Regex.swift.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

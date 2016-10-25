@@ -1,5 +1,0 @@
-use_frameworks!
-
-target 'Regex.swift_Example' do
-  pod 'Regex.swift', :path => '../'
-end

@@ -7,7 +7,9 @@
 
 `Regex.swift` is yet another Regex μframework. The main difference is that it's only 68 lines long and intends to keep things simple yet readable. It's been used in production by millions of users and so far has proved itself 100% crash-free.
 
-There are only 2 types: [`Match`](https://github.com/fpg1503/Regex.swift/blob/master/Regex.swift/Classes/Regex.swift#L28) and [`Regex`](https://github.com/fpg1503/Regex.swift/blob/master/Regex.swift/Classes/Regex.swift#L40). If I were you I'd read the whole file, it's really quick and will give you a better understanding.
+There are only 2 types: [`Match`](https://github.com/fpg1503/Regex.swift/blob/master/Source/Regex.swift#L28) and [`Regex`](https://github.com/fpg1503/Regex.swift/blob/master/Source/Regex.swift#L40). If I were you I'd read the whole file, it's really quick and will give you a better understanding.
+
+For Swift 2.2 use version 0.1.1.
 
 ## Usage
 
@@ -36,7 +38,10 @@ public init?(plate: String) {
 ```
 
 ## Requirements
-`Regex.swift` relies on `NSRegularExpression` and hopefully won't be necessary anymore when Swift gets a *Swifty* standard Regex API.
+- `Regex.swift` relies on `NSRegularExpression` and hopefully won't be necessary anymore when Swift gets a *Swifty* standard Regex API.
+
+- As of version 1.0 `Regex.swift` uses Swift 3.0.
+
 
 ## Installation
 
