@@ -103,9 +103,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D95E1BDC1D88D63300F94976 /* Regex.swift */ = {
+		D95E1BDC1D88D63300F94976 /* Regex */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D95E1BF11D88D63400F94976 /* Build configuration list for PBXNativeTarget "Regex.swift" */;
+			buildConfigurationList = D95E1BF11D88D63400F94976 /* Build configuration list for PBXNativeTarget "Regex" */;
 			buildPhases = (
 				D95E1BD81D88D63300F94976 /* Sources */,
 				D95E1BD91D88D63300F94976 /* Frameworks */,
@@ -116,7 +116,7 @@
 			);
 			dependencies = (
 			);
-			name = Regex.swift;
+			name = Regex;
 			productName = Regex.swift;
 			productReference = D95E1BDD1D88D63300F94976 /* Regex.framework */;
 			productType = "com.apple.product-type.framework";
@@ -172,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D95E1BDC1D88D63300F94976 /* Regex.swift */,
+				D95E1BDC1D88D63300F94976 /* Regex */,
 				D95E1BE51D88D63400F94976 /* RegexTests */,
 			);
 		};
@@ -217,7 +217,7 @@
 /* Begin PBXTargetDependency section */
 		D95E1BE91D88D63400F94976 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D95E1BDC1D88D63300F94976 /* Regex.swift */;
+			target = D95E1BDC1D88D63300F94976 /* Regex */;
 			targetProxy = D95E1BE81D88D63400F94976 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,7 +397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D95E1BF11D88D63400F94976 /* Build configuration list for PBXNativeTarget "Regex.swift" */ = {
+		D95E1BF11D88D63400F94976 /* Build configuration list for PBXNativeTarget "Regex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D95E1BF21D88D63400F94976 /* Debug */,
