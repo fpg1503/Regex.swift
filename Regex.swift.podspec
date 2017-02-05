@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Regex.swift'
-  s.version          = '1.0.1'
+  s.version          = '1.1'
   s.summary          = 'A Simple Swift NSRegularExpression wrapper'
 
   s.description      = <<-DESC
