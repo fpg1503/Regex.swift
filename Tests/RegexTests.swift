@@ -14,16 +14,23 @@ class RegexTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testIssue1ShouldntCrash() {
+        let regex = Regex(pattern: "(a)|b")
+        
+        XCTAssertNotNil(regex)
+        let match1 = regex?.matches("a")     // Captures "a"
+        let match2 = regex?.matches("b")     // Matches "b", no capture
+        
+        XCTAssertEqual(match1?.count, 1)
+        
+        XCTAssertEqual(match1?.first?.matchedString, "a")
+        XCTAssertEqual(match1?.first?.captureGroups.count, 1)
+        XCTAssertEqual(match1?.first?.captureGroups.first, "a")
+        
+        XCTAssertEqual(match2?.count, 1)
+        
+        XCTAssertEqual(match2?.first?.matchedString, "b")
+        XCTAssertEqual(match2?.first?.captureGroups.count, 0)
     }
     
 }
