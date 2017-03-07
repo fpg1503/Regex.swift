@@ -31,7 +31,9 @@ public struct Match {
     
     public init(baseString string: String, checkingResult: NSTextCheckingResult) {
         matchedString = string.substringWithRange(checkingResult.range)
-        captureGroups = checkingResult.ranges.dropFirst().map {
+        captureGroups = checkingResult.ranges.dropFirst().filter {
+            $0.location != NSNotFound
+        }.map {
             string.substringWithRange($0)
         }
     }
