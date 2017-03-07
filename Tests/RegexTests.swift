@@ -19,7 +19,7 @@ class RegexTests: XCTestCase {
         
         XCTAssertNotNil(regex)
         let match1 = regex?.matches("a")     // Captures "a"
-        let match2 = regex?.matches("b")     // Matches "b", no capture
+        let match2 = regex?.matches("b")     // Matches "b", Captures ""
         
         XCTAssertEqual(match1?.count, 1)
         
@@ -30,7 +30,8 @@ class RegexTests: XCTestCase {
         XCTAssertEqual(match2?.count, 1)
         
         XCTAssertEqual(match2?.first?.matchedString, "b")
-        XCTAssertEqual(match2?.first?.captureGroups.count, 0)
+        XCTAssertEqual(match2?.first?.captureGroups.count, 1)
+        XCTAssertEqual(match2?.first?.captureGroups.first, "")
     }
     
 }
