@@ -19,7 +19,7 @@ private extension NSTextCheckingResult {
     var ranges: [NSRange] {
         var ranges = [NSRange]()
         for i in 0 ..< numberOfRanges {
-            ranges.append(rangeAt(i))
+            ranges.append(range(at: i))
         }
         return ranges
     }

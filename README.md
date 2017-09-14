@@ -10,6 +10,8 @@
 There are only 2 types: [`Match`](https://github.com/fpg1503/Regex.swift/blob/master/Source/Regex.swift#L28) and [`Regex`](https://github.com/fpg1503/Regex.swift/blob/master/Source/Regex.swift#L40). If I were you I'd read the whole file, it's really quick and will give you a better understanding.
 
 For Swift 2.2 use version 0.1.1.
+For Swift 3.x use version 1.0.3
+For Swift 4.0+ use version 2.0+
 
 ## Usage
 

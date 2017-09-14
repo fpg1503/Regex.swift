@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = 'Regex.swift'
-  s.version          = '1.0.3'
+  s.version          = '2.0'
   s.summary          = 'A Simple Swift NSRegularExpression wrapper'
 
   s.description      = <<-DESC
-A simple wrapper for Regular Expressions using Swift 3.0
+A simple wrapper for Regular Expressions using Swift 4.0
                        DESC
 
   s.homepage         = 'https://github.com/fpg1503/Regex.swift'
