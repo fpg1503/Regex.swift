@@ -2,7 +2,7 @@ import Foundation
 
 private extension String {
     var wholeRange: NSRange {
-        return NSRange(location: 0, length: characters.count)
+        return NSRange(location: 0, length: self.count)
     }
     
     //TODO: Use ObjectiveCBridgeable or wait until NSRegularExpression has a swifty API
